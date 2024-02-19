@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  padding: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.item > a {
+  display: block;
+}
+
+.item h1 {
+  margin: 0;
+}
